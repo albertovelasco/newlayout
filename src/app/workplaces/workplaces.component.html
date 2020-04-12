@@ -1,0 +1,252 @@
+<img src="assets/images/headerairbus.png" width="100%"/>
+<p-menu #menufolder [popup]="true" [model]="itemsFolder"></p-menu>
+<p-tabView orientation="top">
+    <p-tabPanel header="Main" leftIcon="pi pi-file-o">
+        <div class="p-grid">
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Create Document
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">New TEA Reference / Create TEA Document</a></p>
+                    <p><a href="#">New EFA Reference / Create EFA Document</a></p>
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Create specific document
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">New specific document EFA</a></p>
+                    <p><a href="#">New specific document TALARION</a></p>
+                    <p><a href="#">New specific document External EFA</a></p>
+                    <p><a href="#">New specific document External TALARION</a></p>
+                    
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Signature Sheet
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Create Signature Sheet</a></p>
+                    
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Procedures
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Create Procedure</a></p>
+                    
+                </p-panel>
+
+            </div>
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Add DIT Signatory
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Add DIT Signatory</a></p>
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Templates
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><i class="pi pi-file" style="font-size: large"></i><a href="#">Template Document 1</a></p>
+                    <p><i class="pi pi-file" style="font-size: large"></i><a href="#">Template Document 2</a></p>
+                    <p><i class="pi pi-file" style="font-size: large"></i><a href="#">Template Document 3</a></p>
+                    <p><i class="pi pi-folder" style="font-size: large"></i><a href="#">More templates</a></p>
+                    
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                User Guides
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><i class="pi pi-file-pdf" style="font-size: large"></i><a href="#">User guide DMS</a></p>
+                    <p><i class="pi pi-file-pdf" style="font-size: large"></i><a href="#">User guide EFA</a></p>
+                    <p><i class="pi pi-file-pdf" style="font-size: large"></i><a href="#">User guide TALARION</a></p>
+                    
+                </p-panel>
+
+            </div>
+            
+        </div>
+        
+    </p-tabPanel>
+    <p-tabPanel header="Searches" leftIcon="pi pi-search">
+        <div class="p-grid">
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Search for a document
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Quick Search</a></p>
+                    <p><a href="#">Advanced Search</a></p>
+                </p-panel>
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Search for a document types / subtypes
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Search Document Types</a></p>
+                    <p><a href="#">Search Document Subtypes</a></p>
+                </p-panel>
+
+            </div>
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Conference Search
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Conference Search</a></p>
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Airbus Defence and Space Document Search
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Airbus Defence and Space Document Search</a></p>
+                </p-panel>
+
+            </div>
+            
+        </div>
+    </p-tabPanel>
+    <p-tabPanel header="Reports" leftIcon="pi pi-file-pdf">
+        <div class="p-grid">
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Document Reports
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Document Reports</a></p>
+                </p-panel>
+                
+
+            </div>
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Export Excel Report
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Export Excel Report</a></p>
+                </p-panel>
+                <p-panel [toggleable]="false" >
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                Airbus Defence and Space Document Report
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">Airbus Defence and Space Document Report</a></p>
+                </p-panel>
+
+            </div>
+            
+        </div>
+    </p-tabPanel>
+    <p-tabPanel header="Admin" leftIcon="pi pi-lock">
+        <div class="p-grid">
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                New document types/subtypes
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">New document type</a></p>
+                    <p><a href="#">New document subtype</a></p>
+                </p-panel>
+
+            </div>
+            <div class="p-col">
+                
+                <p-panel [toggleable]="false">
+                    <p-header>
+                        <div class="ui-helper-clearfix">
+                            <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">
+                                New signatory
+                            </span>
+                            <button pButton type="button" icon="pi pi-bars" style="float:right;font-size: x-small" (click)="menufolder.toggle($event)"></button>     
+                        </div>
+                    </p-header>
+                    <p><a href="#">New signatory</a></p>
+                </p-panel>
+
+            </div>
+            
+        </div>
+    </p-tabPanel>
+    
+</p-tabView>

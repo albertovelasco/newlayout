@@ -1,0 +1,6 @@
+.ui-panel{
+    margin-top: 10px;
+}
+.ui-panel .ui-panel-titlebar .ui-panel-titlebar-icon {
+    float: left;
+}
